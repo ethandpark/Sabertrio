@@ -1,0 +1,38 @@
+.footer {
+    height: 120px;
+    background-color: black;
+}
+
+.footer-text {
+    display: inline-block;
+    margin-left: 29px;
+    margin-top: 38px;
+    font-family: var(--font-main);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    text-align: center;
+    width: 355px;
+}
+
+@media (min-width: 834px) {
+    .footer {
+        height: 100px;
+    }
+    
+    .footer-text {
+        font-size: 1rem;
+        line-height: 1.7rem;
+        width: 834px;
+    }
+}
+@media (min-width: 1200px) {
+    .footer {
+        height: 143px;
+    }
+    
+    .footer-text {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        width: 1200px;
+    }
+}

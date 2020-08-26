@@ -1,0 +1,14 @@
+:root {
+  --color-body: #898F94;
+  --color-primary: #FFDB4D;
+  --color-secondary: #FFF1B8;
+  --color-hyperlink: #FFCC00;
+  --color-extra: #DAE1E7;
+   --color-background: linear-gradient(0deg, rgba(26,26,26,1) 80%, rgba(0,0,0,1) 100%);
+   
+
+  --font-main: 'Montserrat', sans-serif;
+  --font-extra: 'Baloo Paaji 2', cursive;
+
+  --size-body: 1.4rem;
+}
