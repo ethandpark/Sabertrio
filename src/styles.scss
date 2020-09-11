@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji+2:400,600|Montserrat:300,300i,400,400i,600&display=swap');
+
+/* Basic styles */
+@import 'scss/variables';
+@import 'scss/base';
+@import 'scss/type';
+
+/* Generic block styles */
+@import 'scss/blocks/choices';
+
+@import 'scss/blocks/nav';
+@import 'scss/blocks/brand';
+@import 'scss/blocks/contact';
+@import 'scss/blocks/insider';
+@import 'scss/blocks/footer';
+
+/* Page-specific styles */
+@import 'scss/pages/index';
+@import 'scss/pages/product';
+@import 'scss/pages/categories';
