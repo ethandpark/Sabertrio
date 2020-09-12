@@ -1,0 +1,341 @@
+.featured-list {
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+}
+
+.featured-list__item-image {
+    width: 100%;
+    margin: auto;
+}
+
+.featured-list__item-name {
+    color: $color-secondary;
+    font-family: $font-main;
+    font-size: 2.8rem;
+    line-height: 2.5rem;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 0;
+
+}
+    
+.featured-list__item-price {
+    color: $color-body;
+    font-family: $font-main;
+    font-size: $size-body;
+    line-height: 3rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 8px;
+
+}
+
+.highlights-list {
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+}
+
+.highlights-list__item {
+    width: 414px;
+    text-align: center;
+}
+
+.highlights-list__item-title {
+    color: $color-extra;
+    font-family: $font-main;
+    font-size: $size-body;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.highlights-list__item-description {
+    color: $color-body;
+    font-family: $font-main;
+    font-size: $size-body;
+    line-height: 1.6rem;
+    width: 312px;
+    margin-left: 51px;
+    margin-bottom: 30px;
+}
+
+.home-page__contact {
+    margin-top: 85px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 340px;
+}
+
+.home-page__featured {
+    margin-top: 98px;
+}
+
+.home-page__highlights {
+    margin-top: 60px;
+}
+
+.news-description {
+    width: 377px;
+    color: $color-body;
+    font-family: $font-main;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.news-heading {
+    width: 414px;
+    margin-top: 15px;
+    color: $color-secondary;
+    font-family: $font-main;
+    font-weight: 300;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.news-image {
+    width: 414px;
+    height: auto;
+}
+
+.product-name {
+    font-family: $font-main;
+    color: $color-secondary;
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    margin: 0 0 14px 12px;
+}
+
+.product-price {
+    font-family: $font-main;
+    color: $color-extra;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-top: 0;
+    margin-left: 12px;
+}
+
+.section-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+@media (min-width: 834px) {
+    .featured-list {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 82px;
+        justify-content: space-between;
+        width: 676px;
+    }
+    
+    .featured-list__item-image {
+        width: 325px;
+        height: 223px;
+        margin-left: 0;
+    }
+    
+    .featured-list__item-link {
+        margin-bottom: 72px;
+    }
+    
+    .featured-list__item-name {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+        width: 90px;
+        margin-top: 20px;
+        margin-bottom: 12px;
+        text-align: left;
+    }
+    
+    .featured-list__item-price {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+        width: 90px;
+        margin-bottom: 48px;
+        text-align: left;
+    }
+    
+    .home-page {
+        margin-top: 1020px;
+    }
+    
+    .highlights-list {
+        display: flex;
+        flex-flow: row wrap;
+        width: 653px;
+        margin: 0 0 0 92px;
+        justify-content: space-between;
+    }
+    
+    .highlights-list__item {
+        width: 152px;
+    }
+    
+    .highlights-list__item-description {
+        width: 152px;
+        margin-left: 0;
+        margin-bottom: 59px;
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+    }
+    
+    .highlights-list__item-title {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+    }
+    
+    .highlights-list__item-image {
+        width: 104px;
+    }
+    
+    .home-page__contact {
+        width: 834px;
+    }
+    
+    .news-image {
+        width: 834px;
+        height: auto;
+    }
+    
+    .news-heading {
+        width: auto;
+
+        font-size: $size-body;
+        line-height: 2.4rem;
+        margin-left: 250px;
+        margin-top: 31px;
+    }
+    
+    .news-description {
+        width: 633px;
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+        margin-top: 6px;
+    }
+    
+    .section-title {
+        margin-top: 89px;
+        margin-bottom: 61px;
+        font-size: $size-body;
+        line-height: 2.4rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .featured-list {
+        margin-bottom: 0;
+    }
+    
+    .featured-list__item-details {
+        display: flex;
+        flex-flow: row wrap;
+        width: 90px;
+        height: 48px;
+    }
+    
+    .featured-list__item-image {
+        width: 460px;
+        height: auto;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    
+    .featured-list__item-link {
+        display: flex;
+        margin-left: 250px;
+        margin-bottom: 72px;
+    }
+    
+    .featured-list__item-name {
+        font-size: 1.9rem;
+        line-height: 3.6rem;
+        height: 36px;
+    }
+    
+    .featured-list__item-price {
+        font-size: 1.9rem;
+        line-height: 3.6rem;
+        height: 36px;
+    }
+    
+    .highlights-list {
+        display: flex;
+        flex-flow: row wrap;
+        width: 940px;
+        margin: 0 0 0 140px;
+        justify-content: space-between;
+    }
+    
+    .highlights-list__item {
+        width: 220px;
+    }
+    
+    .highlights-list__item-description {
+        width: 220px;
+        margin-left: 0;
+        margin-bottom: 59px;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
+    
+    .highlights-list__item-title {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
+    
+    .highlights-list__item-image {
+        width: 150px;
+    }
+    
+    .home-page__contact {
+        margin-top: 102px;
+        width: 1200px;
+    }
+    
+    .home-page__highlights {
+        margin-top: 194px;
+    }
+    
+    .home-page {
+        margin-top: 1512px;
+    }
+    
+    .home-page__featured {
+        font-size: 2.8rem;
+        line-height: 2.5rem;
+        margin-top: 181px;
+    }
+    
+    .news-description {
+        font-size: 1.9rem;
+        line-height: 3.6rem;
+        margin-top: 21px;
+        width: 912px;
+    }
+    
+    .news-heading {
+        width: auto;
+        font-size: 2.8rem;
+        line-height: 2.5rem;
+        margin-left: 272px;
+        margin-top: 37px;
+    }
+    
+    .news-image {
+        width: 1200px;
+    }
+    
+    .section-title {
+        margin-bottom: 94px;
+    }
+}

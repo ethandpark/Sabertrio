@@ -1,0 +1,186 @@
+/*just a note - all of these classes doing the gradient fades were so that the lightsaber background images faded into the black instead of just abrubptly cutting off. Normally I would've edited the images themselves in Photoshop or something to do this, but I since don't have photoshop myself, I wasn't able to (I would have used the university computers otherwise). That's why there's all these classes doing weird gradient fades and such */
+
+.category-header__fade-bottom {
+    display: flex;
+    position: relative;
+    top: -22px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+    height: 100px;
+    width: 414px;
+    margin-bottom: 32px;
+}
+
+.category-header__fade-top {
+    position: absolute;
+    top: 0px;
+    background-image: linear-gradient(180deg, #000000 88.54%, rgba(0, 0, 0, 0) 100%);
+    height: 264px;
+    width: 414px;
+}
+
+.category-page__header {
+    background-color: transparent;
+    height: 272px;
+}
+
+.category-header__image {
+    background-image: url("images/store-splash.png");
+    height: 196px;
+    background-repeat: no-repeat;
+    margin-top: 240px;
+    background-size: cover;
+}
+
+.header-break {
+    width: 391px;
+    margin: 4px 11px 11px 11px;
+    border: 1px solid #FFDB4D;
+}
+
+.home-header__fade {
+    display: flex;
+    position: absolute;
+    top: 500px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 32%, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+    height: 222px;
+    width: 414px;
+    margin-bottom: 200px;
+}
+
+.home-header__image {
+    background-image: url("images/home-splash.png");
+    height: 486px;
+    background-size: cover;
+}
+
+.home-header__logo {
+    margin: auto;
+    width: 200px;
+    height: 106px;
+}
+
+.home-header__logo-image {
+        width: 200px;
+        height: 106px;
+}
+
+.home-page__header {
+    height: 744px;
+}
+
+.product-page__header {
+    height: 228px;
+    background-color: transparent;
+    position: relative;
+}
+
+@media (min-width: 834px) {
+    .category-header__fade-top {
+        width: 834px;
+        height: 154px;
+    }
+    
+    .category-header__fade-bottom {
+        width: 834px;
+        height: 87px;
+    }
+    
+    .category-header__image {
+        width: 834px;
+        height: 369px;
+        margin-top: 120px;
+    }
+    
+    .home-page__header {
+        width: 834px;
+        height: 117px;
+    }
+    
+    .header-break {
+        width: 800px;
+        margin: 7px 0 14px 13px;
+    }
+    
+    .home-header__fade {
+        position: absolute;
+        width: 834px;
+        height: 383px;
+        top: 730px;
+    }
+    
+    .home-header__logo {
+        width: 262px;
+        height: 139px;
+        margin-left: auto;
+    }
+    
+    .home-header__logo-image {
+        width: 262px;
+        height: 139px;
+    }
+    
+    .home-header__image {
+        background-repeat: no-repeat;
+        width: 834px;
+        height: 855px;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+}
+
+@media (min-width: 1200px) {
+    .category-header__fade-bottom {
+        width: 1200px;
+    }
+    
+    .category-header__fade-top {
+        width: 1200px;
+        height: 221px;
+    }
+    
+    .category-header__image {
+        margin-top: 210px;
+        height: 481px;
+        width: 1200px;
+    }
+    
+    .home-header__image {
+        background-repeat: no-repeat;
+        width: 1200px;
+        height: 1082px;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+    
+    .home-page__header {
+        margin: 0 auto;
+        position: absolute;
+        top: 0px;
+        z-index: -2;
+    }
+    
+    .header-break {
+        width: 1152px;
+        margin: 24px 24px 29px 24px;
+    }
+    
+    .home-header__fade {
+        position: absolute;
+        width: 1200px;
+        height: 552px;
+        left: 0px;
+        top: 864px;
+    }
+    
+    .home-header__logo {
+        width: 377px;
+        height: 200px;
+    }
+    
+    .home-header__logo-image {
+        width: 377px;
+        height: 200px;
+    }
+}

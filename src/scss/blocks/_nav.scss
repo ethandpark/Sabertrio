@@ -1,0 +1,137 @@
+.dropdown-button {
+    background-color: transparent;
+    color: $color-secondary;
+    font-size: 16px;
+    border: none;
+    padding: 0;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: $color-extra;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+    right: 0;
+    border-radius: 5px 0 5px 5px;
+}
+
+.dropdown-item {
+    height: 15px;
+    line-height: 1.5rem;
+    font-family: $font-main;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.dropdown-content a:hover {
+    background-color: $color-secondary;
+}
+
+.item-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.item-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.item-dropdown:hover .dropdown-button {
+    background-color: $color-secondary;
+    color: black;
+}
+
+.nav-item {
+    line-height: 2.4rem;
+}
+
+.nav-item__link {
+    color: $color-secondary;
+    font-family: $font-main;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+}
+
+.nav-item__link:hover {
+    text-shadow: 1px 1px 4px white, 0 0 5px $color-hyperlink;
+}
+
+.nav-item--active {
+    border-bottom: .5px solid $color-secondary;
+}
+
+.nav-main {
+    align-items: center;
+    text-align: right;
+    margin-left: 97px;
+    margin-right: 11px;
+    width: 107px;
+    height: 132px;
+    float: right;
+}
+
+@media (min-width: 834px) {
+    .nav-main {
+        position: absolute;
+        left: 432px;
+        top: 45px;
+        width: 366px;
+        height: 34px;
+        margin-left: 0;
+    }
+    
+    .nav-main__page-list {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    
+    .nav-item {
+        margin-right: 23px;
+    }
+    
+    .nav-item__link {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .dropdown-item {
+        font-size: 1.4rem;
+    }
+    
+    .nav-item {
+        margin-right: 33px;
+    }
+    
+    .nav-item__link {
+        font-weight: 300;
+        font-size: 2.8rem;
+        line-height: 2.5rem;
+    }
+    
+    .nav-main {
+        position: absolute;
+        top: 49px;
+        left: 624px;
+        width: 526px;
+        margin: 0;
+    }
+    
+    .nav-main__product {
+        top: 20px;
+    }
+    
+    .nav-main__page-list {
+        display: flex;
+    }
+}
