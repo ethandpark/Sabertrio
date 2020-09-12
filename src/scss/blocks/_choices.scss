@@ -9,17 +9,17 @@
 }
 
 .list-content {
-    background-color: var(--color-body);
-    color: var(--color-extra);
+    background-color: $color-body;
+    color: $color-extra;
     font-size: 1.2rem;
     width: 117px;
     height: 30px;
 }
 
 .list-header {
-    font-family: var(--font-main);
-    font-size: var(--size-body);
-    color: var(--color-body);
+    font-family: $font-main;
+    font-size: $size-body;
+    color: $color-body;
     line-height: 1.2rem;
     margin: 31px 0 11px 0;
 }
@@ -31,9 +31,9 @@
 }
 
 .order-submit {
-    background-color: var(--color-primary);
+    background-color: $color-primary;
     color: black;
-    font-family: var(--font-main);
+    font-family: $font-main;
     font-size: 1.2rem;
     padding: 0;
     margin-top: 21px;
@@ -45,21 +45,21 @@
 }
 
 .order-submit:hover {
-    background-color: var(--color-secondary);
+    background-color: $color-secondary;
 }
 
 .order-title {
-    font-family: var(--font-main);
-    font-size: var(--size-body);
-    color: var(--color-body);
+    font-family: $font-main;
+    font-size: $size-body;
+    color: $color-body;
     margin-top: 7px;
     margin-right: 19px;
 }
 
 .order-quantity {
-    background-color: var(--color-extra);
+    background-color: $color-extra;
     color: black;
-    font-family: var(--font-main);
+    font-family: $font-main;
     text-align: center;
     width: 48px;
     height: 30px;
@@ -105,7 +105,7 @@
     }
     
     .list-header {
-        font-size: var(--size-body);
+        font-size: $size-body;
         line-height: 2.4rem;
         width: 144px;
     }
@@ -125,6 +125,4 @@
         height: 42px;
         margin-left: 29px;
     }
-    
-
 }

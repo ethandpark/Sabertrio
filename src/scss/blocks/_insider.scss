@@ -4,8 +4,8 @@
 }
 
 .insider-email {
-    background-color: var(--color-primary);
-    font-family: var(--font-main);
+    background-color: $color-primary;
+    font-family: $font-main;
     width: 200px;
     height: 24px;
     border: none;
@@ -15,11 +15,8 @@
     margin-left: 36px;
 }
 
-.insider-form {
-}
-
 .insider-heading {
-    color: var(--color-body);
+    color: $color-body;
     display: inline-block;
     width: 207px;
     margin-left: 103px;
@@ -32,8 +29,8 @@
     height: 24px;
     border: none;
     padding: 0;
-    background-color: var(--color-primary);
-    font-family: var(--font-main);
+    background-color: $color-primary;
+    font-family: $font-main;
     color: black;
     margin-right: 36px;
 }

@@ -10,8 +10,8 @@
 }
 
 .featured-list__item-name {
-    color: var(--color-secondary);
-    font-family: var(--font-main);
+    color: $color-secondary;
+    font-family: $font-main;
     font-size: 2.8rem;
     line-height: 2.5rem;
     text-align: center;
@@ -21,9 +21,9 @@
 }
     
 .featured-list__item-price {
-    color: var(--color-body);
-    font-family: var(--font-main);
-    font-size: var(--size-body);
+    color: $color-body;
+    font-family: $font-main;
+    font-size: $size-body;
     line-height: 3rem;
     text-align: center;
     margin-top: 0;
@@ -42,21 +42,18 @@
     text-align: center;
 }
 
-.highlights-list__item-image {
-}
-
 .highlights-list__item-title {
-    color: var(--color-extra);
-    font-family: var(--font-main);
-    font-size: var(--size-body);
+    color: $color-extra;
+    font-family: $font-main;
+    font-size: $size-body;
     margin-top: 0;
     margin-bottom: 10px;
 }
 
 .highlights-list__item-description {
-    color: var(--color-body);
-    font-family: var(--font-main);
-    font-size: var(--size-body);
+    color: $color-body;
+    font-family: $font-main;
+    font-size: $size-body;
     line-height: 1.6rem;
     width: 312px;
     margin-left: 51px;
@@ -80,8 +77,8 @@
 
 .news-description {
     width: 377px;
-    color: var(--color-body);
-    font-family: var(--font-main);
+    color: $color-body;
+    font-family: $font-main;
     font-size: 1.2rem;
     line-height: 1.8rem;
     display: flex;
@@ -94,8 +91,8 @@
 .news-heading {
     width: 414px;
     margin-top: 15px;
-    color: var(--color-secondary);
-    font-family: var(--font-main);
+    color: $color-secondary;
+    font-family: $font-main;
     font-weight: 300;
     font-size: 2.4rem;
     line-height: 2.5rem;
@@ -110,16 +107,16 @@
 }
 
 .product-name {
-    font-family: var(--font-main);
-    color: var(--color-secondary);
+    font-family: $font-main;
+    color: $color-secondary;
     font-size: 1.9rem;
     line-height: 2.3rem;
     margin: 0 0 14px 12px;
 }
 
 .product-price {
-    font-family: var(--font-main);
-    color: var(--color-extra);
+    font-family: $font-main;
+    color: $color-extra;
     font-size: 1.2rem;
     line-height: 1.5rem;
     margin-top: 0;
@@ -213,7 +210,7 @@
     .news-heading {
         width: auto;
 
-        font-size: var(--size-body);
+        font-size: $size-body;
         line-height: 2.4rem;
         margin-left: 250px;
         margin-top: 31px;
@@ -229,7 +226,7 @@
     .section-title {
         margin-top: 89px;
         margin-bottom: 61px;
-        font-size: var(--size-main);
+        font-size: $size-body;
         line-height: 2.4rem;
     }
 }

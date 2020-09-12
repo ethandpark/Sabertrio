@@ -5,14 +5,14 @@ a {
 }
 
 body {
-  font-family: var(--font-body);
-  font-size: var(--size-body);
+  font-family: $font-main;
+  font-size: $size-body;
   line-height: 1.8rem;  
 }
 
 h1 {
-    color: var(--color-primary);
-    font-family: var(--font-main);
+    color: $color-primary;
+    font-family: $font-main;
     font-weight: normal;
     font-size: 6.4rem;
     line-height: 5rem;
@@ -20,16 +20,16 @@ h1 {
 }
 
 h2 {
-    color: var(--color-primary);
-    font-family: var(--font-main);
+    color: $color-primary;
+    font-family: $font-main;
     font-weight: 300;
     font-size: 2.8rem;
     line-height: 2.5rem;
 }
 
 h3 {
-    color: var(--color-primary);
-    font-family: var(--font-main);
+    color: $color-primary;
+    font-family: $font-main;
     font-weight: normal;
     font-size: 1.9rem;
     line-height: 3.6rem;
@@ -46,5 +46,5 @@ html {
 }
 
 p {
-  font-size: var(--size-body);
+  font-size: $size-body;
 }

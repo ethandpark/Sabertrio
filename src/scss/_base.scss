@@ -15,11 +15,11 @@ header {
 html {
       margin: 0 auto;
       padding: 0;
-      background: var(--color-background);
+      background: $color-background;
 }
 
 option:checked {
-      background-color: var(--color-secondary); 
+      background-color: $color-secondary; 
       color: #000000;
     }
 

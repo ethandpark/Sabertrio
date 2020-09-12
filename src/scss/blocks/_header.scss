@@ -24,7 +24,7 @@
 }
 
 .category-header__image {
-    background-image: url("/images/store-splash.png");
+    background-image: url("images/store-splash.png");
     height: 196px;
     background-repeat: no-repeat;
     margin-top: 240px;
@@ -48,7 +48,7 @@
 }
 
 .home-header__image {
-    background-image: url("/images/home-splash.png");
+    background-image: url("images/home-splash.png");
     height: 486px;
     background-size: cover;
 }
@@ -71,6 +71,7 @@
 .product-page__header {
     height: 228px;
     background-color: transparent;
+    position: relative;
 }
 
 @media (min-width: 834px) {
@@ -182,3 +183,4 @@
         width: 377px;
         height: 200px;
     }
+}

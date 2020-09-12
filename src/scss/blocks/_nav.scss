@@ -1,6 +1,6 @@
 .dropdown-button {
     background-color: transparent;
-    color: var(--color-secondary);
+    color: $color-secondary;
     font-size: 16px;
     border: none;
     padding: 0;
@@ -10,7 +10,7 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: var(--color-extra);
+    background-color: $color-extra;
     min-width: 140px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -22,7 +22,7 @@
 .dropdown-item {
     height: 15px;
     line-height: 1.5rem;
-    font-family: var(--font-main);
+    font-family: $font-main;
     color: black;
     text-decoration: none;
     display: block;
@@ -31,7 +31,7 @@
 }
 
 .dropdown-content a:hover {
-    background-color: var(--color-secondary);
+    background-color: $color-secondary;
 }
 
 .item-dropdown {
@@ -44,7 +44,7 @@
 }
 
 .item-dropdown:hover .dropdown-button {
-    background-color: var(--color-secondary);
+    background-color: $color-secondary;
     color: black;
 }
 
@@ -53,23 +53,22 @@
 }
 
 .nav-item__link {
-    color: var(--color-secondary);
-    font-family: var(--font-main);
+    color: $color-secondary;
+    font-family: $font-main;
     font-weight: 300;
     font-size: 1.8rem;
     line-height: 3.6rem;
 }
 
 .nav-item__link:hover {
-    text-shadow: 1px 1px 4px white, 0 0 5px var(--color-hyperlink);
+    text-shadow: 1px 1px 4px white, 0 0 5px $color-hyperlink;
 }
 
 .nav-item--active {
-    border-bottom: .5px solid var(--color-secondary);
+    border-bottom: .5px solid $color-secondary;
 }
 
 .nav-main {
-    display: inline-block;
     align-items: center;
     text-align: right;
     margin-left: 97px;
@@ -129,7 +128,7 @@
     }
     
     .nav-main__product {
-        left: 784px
+        top: 20px;
     }
     
     .nav-main__page-list {

@@ -1,6 +1,6 @@
 .contact-description {
-    color: var(--color-body);
-    font-family: var(--font-main);
+    color: $color-body;
+    font-family: $font-main;
     font-size: 1.2rem;
     line-height: 1.6rem;
     display: flex;
@@ -12,9 +12,9 @@
     width: 72px;
     height: 29px;
     background: #3B5998;
-    font-family: var(--font-main);
+    font-family: $font-main;
     font-weight: 600;
-    font-size: var(--size-body);
+    font-size: $size-body;
     color: #FFFFFF;
     border: none;
     margin-bottom: 196px;
@@ -23,7 +23,7 @@
 .contact-heading {
     margin-top: 19px;
     display: inline-block;
-    color: var(--color-secondary);
+    color: $color-secondary;
 }
 
 .form-input {
@@ -32,7 +32,7 @@
     border: none;
     margin-bottom: 24px;
     color: #FFFFFF;
-    font-family: var(--font-main);
+    font-family: $font-main;
     font-size: 1.2rem;
     padding: 2px 0 2px 10px;
     outline: none;
@@ -43,8 +43,8 @@
     height: 36px;
     background: #4F4F4F;
     border: none;
-    color: var(--color-hyperlink);
-    font-family: var(--font-main);
+    color: $color-hyperlink;
+    font-family: $font-main;
     font-size: 1.9rem;
     margin-bottom: 61px;
 }
@@ -88,7 +88,7 @@
     
     .form-submit {
         display: block;
-        font-size: var(--size-body);
+        font-size: $size-body;
         line-height: 2.4rem;
     }
     
@@ -134,7 +134,7 @@
     
     .form-submit {
         display: block;
-        font-size: var(--size-body);
+        font-size: $size-body;
         line-height: 2.4rem;
     }
     

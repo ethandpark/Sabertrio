@@ -4,8 +4,8 @@
 }
 
 .category-page__main-description {
-    font-family: var(--font-main);
-    color: var(--color-body);
+    font-family: $font-main;
+    color: $color-body;
     font-size: 1.2rem;
     line-height: 1.6rem;
     width: 342px;
@@ -14,7 +14,7 @@
 
 .category-page__main-title {
     margin: 0;
-    font-family: var(--font-main);
+    font-family: $font-main;
     background:  linear-gradient(0deg, rgba(26,26,26,0) 0%, rgba(0,0,0,1) 64%);
     font-size: 2.8rem;
     line-height: 2.5rem;
@@ -23,16 +23,16 @@
 }
 
 .list-header__description {
-    font-family: var(--font-main);
-    color: var(--color-body); 
+    font-family: $font-main;
+    color: $color-body; 
     margin: 0 0 32px 36px;
     font-size: 1.2rem;
     line-height: 1.6rem;
 }
 
 .list-header__title {
-    font-family: var(--font-main);
-    color: var(--color-extra);
+    font-family: $font-main;
+    color: $color-extra;
     margin-left: 36px;
     margin-bottom: 1px;
     font-size: 1.9rem;
@@ -46,8 +46,8 @@
 }
 
 .list-product__title {
-    font-family: var(--font-main);
-    color: var(--color-secondary);
+    font-family: $font-main;
+    color: $color-secondary;
     margin: 5px 0 2px 0;
     text-align: center;
     font-size: 2.8rem;
@@ -55,9 +55,9 @@
 }
 
 .list-product__price {
-    font-family: var(--font-main);
-    color: var(--color-body);
-    font-size: var(--size-body);
+    font-family: $font-main;
+    color: $color-body;
+    font-size: $size-body;
     line-height: 3rem;
     text-align: center;
     margin: 0 0 14px 0;
@@ -133,7 +133,7 @@
     
     .category-page__main-description {
         width: 700px;
-        font-size: var(--size-body);
+        font-size: $size-body;
         line-height: 2.4rem;
         margin-top: 16px;
         margin-left: 249px;
